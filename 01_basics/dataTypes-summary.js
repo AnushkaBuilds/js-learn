@@ -50,3 +50,26 @@ Array	Ordered list of values (special type of object).	let arr = [1, 2, 3];	"obj
 Function	A callable object that executes code.	function greet() {}	"function" (special case of "object")
 
 */
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack(primitive) , heap(non-primitive)
+
+let myYoutubeName = "hiteshchoudharydotcom"
+let anotherName = myYoutubeName
+anotherName = "Dear Hitesh"
+
+console.log(myYoutubeName)
+console.log(anotherName)         //changes are made in the copy of that datatype and not in the actual value of that datatype.
+
+let userOne = {
+    email : "anushka@google.com",
+    upi : "12345@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "bebo@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
