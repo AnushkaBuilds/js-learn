@@ -8,7 +8,7 @@ let myCreatedDate = new Date(2003,0,29,5,3)
 console.log(myCreatedDate.toLocaleString())
 
 
-let newdate = new Date(2009,00,17,12,33)
+let newdate = new Date(2009,0,17,12,33)
 console.log(newdate.toString())
 console.log(newdate.toDateString())
 console.log(newdate.toLocaleString())
